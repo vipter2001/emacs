@@ -1,0 +1,82 @@
+# Ignore Everything
+/*
+!.gitignore
+# Ignore Workspaces ;D
+*/workspace/
+
+# =============================== [ CONFIGS ] =============================== #
+
+*
+*/workspace
+
+
+# █▀ █▄█ █▀ ▀█▀ █▀▀ █▀▄▀█
+# ▄█ ░█░ ▄█ ░█░ ██▄ █░▀░█
+# Keymapping Utility
+!keyd/
+keyd/*
+!keyd/default.conf
+# Wayland Compositor
+!hypr/
+# Notification Daemon
+!mako/
+!dunst/
+# System Status Bar
+!waybar/
+
+
+# ▀█▀ █▀▀ █▀█ █▀▄▀█ █ █▄░█ ▄▀█ █░░
+# ░█░ ██▄ █▀▄ █░▀░█ █ █░▀█ █▀█ █▄▄
+# Shell
+!fish/
+# Terminal Emulator
+!kitty/
+kitty/*
+# Terminal Prompt
+!starship/
+# Terminal Multiplexer
+!tmux/
+tmux/plugins
+# Terminal File Explorer
+!vifm/
+vifm/*
+!vifm/vifmrc
+!vifm/colors/
+vifm/colors/*
+!vifm/colors/hunter.vifm
+# Terminal UI Git
+!lazygit/
+lazygit/*
+!lazygit/config.yml
+
+
+# █▀ █▀█ █▀▀ ▀█▀ █░█░█ ▄▀█ █▀█ █▀▀
+# ▄█ █▄█ █▀░ ░█░ ▀▄▀▄▀ █▀█ █▀▄ ██▄
+# 🚀 App Launcher
+!fuzzel/
+# 📄 PDF Viewer
+!zathura/
+# 🌄 Image Viewer
+!feh/
+# 📽️ Video Player
+!mpv/
+# 📢 Audio Visualizer
+!cava/
+cava/*
+!cava/config
+# 🌐 Web Browser
+!.mozilla/
+.mozilla/*
+!.mozilla/firefox/
+.mozilla/firefox/*
+# Firefox Personal
+!.mozilla/firefox/Personal/
+.mozilla/firefox/Personal/*
+!.mozilla/firefox/Personal/chrome/
+# Firefox Experiment
+!.mozilla/firefox/Experiment/
+.mozilla/firefox/Experiment/*
+!.mozilla/firefox/Experiment/chrome/
+
+
+# =========================== [ PERSONAL FILES ] =========================== #
