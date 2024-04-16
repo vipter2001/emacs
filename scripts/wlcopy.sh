@@ -11,7 +11,7 @@ fi
 
 # Function to copy data to the clipboard
 copy_to_clipboard() {
-    wl-copy < "$1"
+    wl-copy < "$filename"
     echo "Copied contents of '$1' to clipboard"
 }
 
