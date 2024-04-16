@@ -48,6 +48,7 @@ vifm/colors/*
 !lazygit/
 lazygit/*
 !lazygit/config.yml
+!scripts/
 
 
 # █▀ █▀█ █▀▀ ▀█▀ █░█░█ ▄▀█ █▀█ █▀▀
