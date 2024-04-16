@@ -19,11 +19,12 @@ copy_to_clipboard() {
 copy_to_clipboard "$filename"
 
 # location to be pasted
-read -p "Enter your Folder Name(include too/):" folderloc
+
 read -p "file to be pasted:" filepaste
+
 #checking if  your folder and file  exist
-if [ ! -d "$2" ] && [ ! -f "$3" ]; then 
-   echo "Directory and file don't exist in '$2' and '$3'" 
+if [ ! -f "$3" ]; then 
+   echo "Directory and file don't exist in '$3'" 
    exit 1
 fi
 
@@ -35,6 +36,6 @@ echo "Copied contents into '$filepaste'"
 
 
 
-
+#kadu pidicha copy-paste(cp)
 
 
