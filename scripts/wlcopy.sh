@@ -23,8 +23,8 @@ copy_to_clipboard "$filename"
 read -p "file to be pasted:" filepaste
 
 #checking if  your folder and file  exist
-if [ ! -f "$3" ]; then 
-   echo "Directory and file don't exist in '$3'" 
+if [ ! -f "$filepaste" ]; then 
+   echo "Directory and file don't exist in '$filepaste'" 
    exit 1
 fi
 
