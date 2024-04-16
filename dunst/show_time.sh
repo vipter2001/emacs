@@ -1,8 +1,9 @@
 #!/bin/bash
 
-# Get the current time
+# Get the current date and time
+current_date=$(date +"%Y-%m-%d")
 current_time=$(date +"%H:%M")
 
 # Send a notification using Dunst
-notify-send "Current Time" "$current_time"
-#dunstify -a "Show Time Script" -r 1234 -u low -t 2000 -geometry "300x100-10+10" "Current Time" "$current_time"
+notify-send  "Date: $current_date  Time: $current_time"
+

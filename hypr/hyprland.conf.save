@@ -144,8 +144,7 @@ bind = $mainMod, P, pseudo, # dwindle
 bind = $mainMod, J, togglesplit, # dwindle
 bind = $mainMod, F, exec, fuzzel
 bind=  $mainMod, T,exec, .config/dunst/show_time.sh
-bind = ALT,T,exec, $terminal
-bind = ALT,C,exec, .config/scripts/wlcopy.sh 
+bind = ALTs,T,exec, vifm 
 
 # Move focus with mainMod + arrow keys
 bind = $mainMod, left, movefocus, l
