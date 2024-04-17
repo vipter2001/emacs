@@ -20,7 +20,10 @@ copy_to_clipboard "$filename"
 
 # location to be pasted
 
+read -p "Enter the folder(/included): " foldername
+
 read -p "file to be pasted:" filepaste
+
 
 #checking if  your folder and file  exist
 if [ ! -f "$filepaste" ]; then 
@@ -28,7 +31,7 @@ if [ ! -f "$filepaste" ]; then
    exit 1
 fi
 
-
+cd $foldername
 #paste into me -_-
 
 wl-paste > "$filepaste"
