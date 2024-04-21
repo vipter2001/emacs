@@ -31,7 +31,10 @@ keyd/*
 !fish/
 # Terminal Emulator
 !kitty/
-
+#yazi file manager
+!yazi/
+#zsh
+!zsh/
 # Terminal Prompt
 !starship/
 # Terminal Multiplexer
