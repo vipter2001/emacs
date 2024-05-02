@@ -172,6 +172,6 @@
 
 
 # BEGIN_KITTY_THEME
-# Cyberpunk Neon
+# Argonaut
 include current-theme.conf
 # END_KITTY_THEME
