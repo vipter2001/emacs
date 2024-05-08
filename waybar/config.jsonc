@@ -47,6 +47,7 @@
         "format-alt": "{time} {icon}",
         // "format-good": "", // An empty format will hide the module
         // "format-full": "",
+        "interval":60, 
         "format-icons": ["", "", "", "", ""]
     },
 
