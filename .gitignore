@@ -52,7 +52,8 @@ vifm/colors/*
 lazygit/*
 !lazygit/config.yml
 !scripts/
-
+#Terminal text editor
+!micro/
 
 # █▀ █▀█ █▀▀ ▀█▀ █░█░█ ▄▀█ █▀█ █▀▀
 # ▄█ █▄█ █▀░ ░█░ ▀▄▀▄▀ █▀█ █▀▄ ██▄
