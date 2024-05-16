@@ -1,5 +1,20 @@
-		# Ignore Everything
-		/*
-		!.gitignore
-		
-		!init.el
+# Ignore Emacs backup files
+*~
+
+# Ignore auto-save files
+auto-save-list/
+
+# Ignore Emacs Lisp Package Archives (ELPA)
+elpa/
+
+# Ignore Emacs tutorial files
+tutorial/
+
+# Ignore Emacs URL cache
+url/
+
+# Ignore the .git directory
+.git/
+
+# Ignore init.el in the root directory
+init.el
