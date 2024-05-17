@@ -10,8 +10,12 @@ source ~/.config/zsh/completion.zsh
 
 # This will set the default prompt to the walters theme
 prompt walters
+#
+#Aliases
+#
 export TMUX_CONF="$HOME/.config/tmux/tmux.conf"
 alias tmux="tmux -f $TMUX_CONF"
+
 #---key-bindings---
 # create a zkbd compatible hash;
 # to add other keys to this hash, see: man 5 terminfo
