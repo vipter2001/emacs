@@ -16,5 +16,4 @@ url/
 # Ignore the .git directory
 .git/
 
-# Ignore init.el in the root directory
-init.el
+
